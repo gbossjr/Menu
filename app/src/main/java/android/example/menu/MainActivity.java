@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Find third menu item TextView and print the text to the logs
 
-        TextView textItem3 = findViewById(R.id.menu_item_1);
+        TextView textItem3 = findViewById(R.id.menu_item_3);
         String menueItem3 = textItem1.getText().toString();
         Log.v("MainActivity",menueItem3);
 
