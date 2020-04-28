@@ -23,7 +23,15 @@ public class MainActivity extends AppCompatActivity {
 
         // Find second menu item TextView and print the text to the logs
 
+        TextView textItem2 = findViewById(R.id.menu_item_2);
+        String menueItem2 = textItem1.getText().toString();
+        Log.v("MainActivity",menueItem2);
+
         // Find third menu item TextView and print the text to the logs
+
+        TextView textItem3 = findViewById(R.id.menu_item_1);
+        String menueItem3 = textItem1.getText().toString();
+        Log.v("MainActivity",menueItem3);
 
     }
 }
